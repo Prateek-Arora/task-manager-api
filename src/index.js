@@ -4,6 +4,7 @@ const userRouter = require("./routers/user");
 const taskRouter = require("./routers/task");
 
 const app = express();
+const cors = require("cors");
 
 const port = process.env.PORT;
 
